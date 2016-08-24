@@ -1,9 +1,7 @@
-First you need to alow the execution of Powershell script. Run the following command under administration credentials:
+- First you need to alow the execution of Powershell script. Run the following command under administration credentials:
+	Set-ExecutionPolicy Unrestricted
 
-Set-ExecutionPolicy Unrestricted
+- Than change the wanna-be regular expression of the desired windows device in the DisableEnableWindowsDevice.ps1
+	For example: $deviceName = "*HD Graphics 4000*"
 
-Than change the wanna-be regular expression of the desired windows device in the. For example:
-
-DisableEnableWindowsDevice.ps1
-
-Run the DisableEnableWindowsDevice.ps1 script
+- Run the DisableEnableWindowsDevice.ps1 script
